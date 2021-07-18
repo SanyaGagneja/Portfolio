@@ -57,32 +57,34 @@ h6{font-size: 16px;}
     width:90%;
     margin:0 auto;
 }
-.header {
+.navbar {
     overflow: hidden;
     background-color: var(--secondaryColor);
-    /* padding: 5px 5px; */
+   
 }
-.header a {
+.navbar a {
    float :left;
     color: var(--secondaryText);
     text-align: center;
-    padding: 13px;
+    padding: 20px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 25px;
     line-height: 25px;
     border-radius: 4px;
 }
-.header a.logo {
+.navbar a.logo {
     font-size: 25px;
     font-weight: bold;
     color: var(--mainText);
 }
-.header a:hover {
+.navbar a:hover {
     background-color: var(--previewShadow);
     
 }
-.header-right {
+.navbar-right {
     float: right;
+ 
+
 }
 
 .greeting-wrapper {
@@ -102,7 +104,7 @@ h6{font-size: 16px;}
     -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
     box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
     display: grid;
-    margin:0px 100px;
+    margin:0px auto;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 'left-column right-column';
     grid-template-rows: 35em;
@@ -286,15 +288,12 @@ footer {
         justify-content: center;
         
     }
-    #preview p{
-        width:300px;
-        font-size: 20px;
-    }
+   
     #profile_pic{
         display:block;
         margin:0 auto;
-        height: 290px;
-        width: 250px;
+        height: 200px;
+        width: 200px;
         object-fit: cover;
         border: 2px solid var(--borderColor);
     }
